@@ -7,5 +7,5 @@ import (
 )
 
 func YesbankRoutes(app *fiber.App) {
-	app.Post("/firstapi", controllers.Firstapi)
+	app.Post("/estamp", controllers.Estamp)
 }
